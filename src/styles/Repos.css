@@ -1,0 +1,8 @@
+.repolist {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.repolist li {
+    margin: 10px;
+}

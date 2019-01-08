@@ -1,0 +1,15 @@
+.container {
+    margin: auto;
+    display: block;
+
+}
+
+.homeinfo {
+    display: flex;
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    
+}
