@@ -1,8 +1,15 @@
 .repolist {
     list-style: none;
-    margin-left: 20px;
+    margin-left: 100px;
+}
+
+.reponame {
+    font-size: 25px;
+    color: blue;
 }
 
 .repolist li {
     margin: 10px;
+    border-top: solid 1px lightgray;
+    padding-top: 20px;
 }

@@ -12,7 +12,11 @@ class Repos extends Component {
             <div>
                 <ul className = "repolist">
                     {this.props.repos.map((repo, i) => (
-                    <li key ={'repo' + i}>{repo.name}</li>))}
+                    <li key ={'repo' + i}>
+                        <p className="reponame">{repo.name} </p> 
+                        <p className="language">{repo.language}</p>
+                    </li>
+                    ))}
                 </ul>
             </div> 
         )
