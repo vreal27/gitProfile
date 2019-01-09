@@ -10,7 +10,7 @@ class Home extends Component {
         return (
             <div className="container">
                 <ul className = "navbar">
-                    <li><i class="fa fa-github"></i></li>
+                    <li><i className="fa fa-github"></i></li>
                     <li><input type="text" name="search" placeholder="Search or jump to..." /></li>
                     <li className = "links">Pull requests</li>
                     <li className = "links">Issues</li>
